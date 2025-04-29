@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.boxx{
+    border: 3px solid black;
+    margin: auto;
+    width: 100%;
+    padding: 23px;
+    background: linear-gradient(  #4e9f3d, #2f5d62);
+}
+
+
+
+body{
+    font-family: "Ubuntu", serif;
+  background-image: url(./WhatsApp\ Image\ 2024-11-06\ at\ 16.27.38_c2ab4d7c.jpg);
+    background-color: #f4f4f4;
+   
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.leadership-team {
+    padding: 50px 0;
+    /* margin-top: 2px; */
+    margin-bottom: 100px;
+    /* margin-top: 100px; */
+}
+
+.leadership-team h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #333;
+}
+
+.team-member {
+    display: inline-block;
+    width: 30%;
+    /* margin: 0 1.5%; */
+    background-color:wheat;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 250px;
+    margin-top: 120px;
+    padding-top: 20px;
+}
+
+.team-member h3 {
+    margin: 10px 0;
+    font-size: 26px;
+    color: #333;
+    padding-top: 50px;
+}
+
+.team-member p {
+    margin: 0;
+    font-size: 24px;
+    color: #777;
+}
+
+.contact {
+    background: linear-gradient(to right, #4e9f3d, #2f5d62);
+    color: #fff;
+    padding: 50px 0;
+    margin-top: 230px;
+    width: 100%;
+}
+
+.contact h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.contact p {
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.contact-info div {
+    text-align: center;
+}
+
+.contact-info div i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
