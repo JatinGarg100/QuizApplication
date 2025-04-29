@@ -1,0 +1,108 @@
+body {
+    background: url(./21251429486234405.jpeg)no-repeat;
+    background-size: cover;
+    font-family: "Kanit", sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+   
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: lightgrey;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: red;
+    font-size:2em;
+}
+
+.reviews-section {
+    margin-bottom: 20px;
+}
+
+.review {
+    border: 5px solid blueviolet;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: lemonchiffon;
+}
+
+.review h3 {
+    margin: 0 0 5px 0;
+    color: blue;
+}
+
+.review-form {
+    margin-top: 20px;
+    
+}
+
+.review-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.review-form input,
+.review-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.review-form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.review-form button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+    .box {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .abc {
+        padding: 15px;
+    }
+
+    .style {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .box {
+        grid-template-columns: 1fr;
+    }
+
+    .abc {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .style {
+        padding: 10px;
+    }
+}
