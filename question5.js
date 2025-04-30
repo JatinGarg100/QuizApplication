@@ -1,7 +1,7 @@
 let questions = [
     {
     numb: 1,
-    question: "Where was the 8th edition of the Future Investment Initiative organized?",
+    question: "Where was the 8th edition of  Future Investment Initiative organized?",
     answer: "Riyadh",
     options: [
       "Kuwait",
